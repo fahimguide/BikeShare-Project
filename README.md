@@ -2,12 +2,19 @@
 
 ![Explore US Bikeshare Data](https://video.udacity-data.com/topher/2018/March/5aa7718d_divvy/divvy.jpg "Explore US Bikeshare Data")
 
+---
+
 ## Project Overview
+
+---
 
 In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
+---
+
 ### Project Needs
 
+---
 the main idea of this project to use python to get some descriptive statistics for specific dataset using both Python and Pandas.
 
 Your program will take user input for the city (e.g. Chicago), month for which the user wants to view data (e.g. January; also includes an 'all' option), and day for which the user wants to view data (e.g. Monday; also includes an 'all' option).
@@ -27,6 +34,8 @@ Types of users by gender (if available)
 The oldest user (if available)
 The youngest user (if available)
 The most common birth year amongst users (if available)
+
+---
 
 ### Python
 
@@ -50,6 +59,9 @@ you will use this package to calculate some data using it
 #### Important Note
 
 If you will use the data on your own PC don't forget to install Pandas
+``` bash
+pip install pandas
+```
 
 ## Things to remembers
 
@@ -59,7 +71,7 @@ Example
 
 ```py
 def get_filters():
-    
+
  """
     Asks user to specify a city, month, and day to analyze.
 
