@@ -57,8 +57,10 @@ If you process this as Udacity project you will be needing to complete some func
 
 Example
 
-> def get_filters():
-> """
+```py
+def get_filters():
+    
+ """
     Asks user to specify a city, month, and day to analyze.
 
     Returns:
@@ -73,7 +75,7 @@ Example
     # get user input for month (all, january, february, ... , june)
 
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # get user input for day of week (all, monday, tuesday, ... sunday) '''
 
 ### Project Data
 
