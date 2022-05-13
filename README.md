@@ -70,6 +70,7 @@ If you process this as Udacity project you will be needing to complete some func
 Example
 
 ```py
+
 def get_filters():
 
  """
@@ -87,12 +88,13 @@ def get_filters():
     # get user input for month (all, january, february, ... , june)
 
 
-    # get user input for day of week (all, monday, tuesday, ... sunday) '''
-
+    # get user input for day of week (all, monday, tuesday, ... sunday)
+```
+---
 ### Project Data
 
-you will use this 3 files
+you will use the following 3 files for this project 
 
-* chicago.csv
-* new_york_city.csv
-* washington.csv
+1. chicago.csv
+1. new_york_city.csv
+1. washington.csv
